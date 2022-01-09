@@ -103,7 +103,8 @@
           "builder": "angular-cli-ghpages:deploy",
           "options": {
             "baseHref": "/angular/",
-            "name": "John"
+            "name": "John",
+            "Author": "John"
           }
         }
       }
