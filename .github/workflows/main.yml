@@ -23,9 +23,8 @@ jobs:
 
       - name: Who am I (temp-set)
         run: |
-          system('git config --global user.email "ckhsu@g4e.npust.edu.tw")
-          system('git config --global user.name "John")
-        shell: Rscript {0}
+          git config --global user.email "ckhsu@g4e.npust.edu.tw"
+          git config --global user.name "John"
 
       - name: Prepare and deploy
         env:
